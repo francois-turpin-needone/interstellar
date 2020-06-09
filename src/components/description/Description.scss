@@ -1,0 +1,26 @@
+header {
+    padding: 40px 0px 40px 50px;
+    text-align: left;
+    color: #fff;
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 25px;
+      background: url("../../assets/img/border-left.svg") center no-repeat;
+      background-size: contain;
+    }
+    h4 {
+      font-weight: bold;
+      font-size: 1em;
+    }
+    h1 {
+      font-weight: bold;
+    }
+    p {
+        color: #dbe2e6;
+    }
+  }
